@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOS on 洛耀生</title>
+    <link>https://www.fank.cool/categories/ios/</link>
+    <description>Recent content in iOS on 洛耀生</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fank.cool/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iOS 架构设计</title>
+      <link>https://www.fank.cool/ios/ios-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fank.cool/ios/ios-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+      <description>md上貌似不能放大，贴上链接： iOS 架构设计图
+ 开发原则   前后端交互原则：相互满足需求，在技术条件允许的情况下，你要什么我给你什么，我要什么你给我什么。实际情况需根据实际工作量和工作人手安排。
+  谁最擅长什么谁就去做什么：尺有所短寸有所长，谁最擅长什么谁就去做什么，在时间紧任务重的情况下，先各自发挥出优势。避免混乱和做自己不擅长的事情时漏洞百出的情况。
+  开发阶段，必须先完成业务，再抽离模块。避免先抽离后来的调试很不方便。
+   实际开发中遇到的前后端交互问题   对php后台来说，单引号&amp;rsquo;&#39;、双引号&amp;quot;&amp;ldquo;没有区别，如果用单引号返回的值，端上解析时有时候是字符串，有时候非字符串
+  Java后台返回值为null的对象时（可能因为spring的默认处理），直接key就没了，对于端上来说不太友好，应该是没有值时为空字符串或没有意义的值
+   </description>
+    </item>
+    
+  </channel>
+</rss>

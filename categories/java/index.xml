@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on 洛耀生</title>
+    <link>https://www.fank.cool/categories/java/</link>
+    <description>Recent content in Java on 洛耀生</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fank.cool/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>frp 内网穿透</title>
+      <link>https://www.fank.cool/java/frp-%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fank.cool/java/frp-%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</guid>
+      <description>背景 今天不想出门？今天朋友来了？在家办公吧，可是公司内网的环境本地又得配一套，麻烦，远程公司机器吧。
+teamviewer、QQ远程，都是可行的方案，但是Mac上QQ貌似没有远程的功能，teamviewer就动不动让你交个钱？
+frp内网穿透欢迎你，提前预备一台有公网IP的服务器（centOS），公司一台被控机器（Windows）。
+ centOS 服务器配置 1.centOS上下载frp工具 wget https://github.com/fatedier/frp/releases/download/v0.33.0/frp_0.33.0_linux_amd64.tar.gz 2.解压、重命名、授权frps tar -zxvf frp_0.33.0_linux_amd64.tar.gz mv frp_0.33.0_linux_amd64 frp chmod 777 -R frp 3.编辑服务端配置文件 cd frp vi frps.ini frps.ini内容如下：
+[common] bind_port = 7000 vhost_http_port = 80 vhost_https_port = 443 token = xxxx # 连接密码 # 运行状态管理工具端口（可选） dashboard_port = 7500 # 监控工具 身份验证 dashboard_user = xxxx dashboard_pwd = xxxx 4.添加安全策略，开放端口 允许 1 自定义TCP 目的:7000、7500 源:0.0.0.0/0 5.启动服务 直接启动服务，ssh连接断开后会断开服务
+sudo ./frps -c ./frps.ini # 前台启动 sudo nohup .</description>
+    </item>
+    
+    <item>
+      <title>Java 架构设计</title>
+      <link>https://www.fank.cool/java/java-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fank.cool/java/java-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+      <description>md上貌似不能放大，贴上链接： Java 架构设计
+ </description>
+    </item>
+    
+  </channel>
+</rss>
