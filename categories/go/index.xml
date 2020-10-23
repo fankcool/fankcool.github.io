@@ -24,16 +24,6 @@ Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</d
     
     <item>
       <title>Introduction aux modèles (Hu)go</title>
-      <link>https://www.fank.cool/ios/introduction-aux-modeles-hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.fank.cool/ios/introduction-aux-modeles-hugo/</guid>
-      <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
-Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Introduction aux modèles (Hu)go</title>
       <link>https://www.fank.cool/others/introduction-aux-modeles-hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       

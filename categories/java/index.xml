@@ -26,5 +26,15 @@ frp内网穿透欢迎你，提前预备一台有公网IP的服务器（centOS）
 sudo ./frps -c ./frps.ini # 前台启动 sudo nohup .</description>
     </item>
     
+    <item>
+      <title>Java 架构设计</title>
+      <link>https://www.fank.cool/java/java-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fank.cool/java/java-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+      <description>md上貌似不能放大，贴上链接： Java 架构设计
+ </description>
+    </item>
+    
   </channel>
 </rss>
